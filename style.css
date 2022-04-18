@@ -1,0 +1,125 @@
+:root{
+    --main-color: #151515;
+    --main-bg-color: #Edeceb;
+
+    color: var(--main-color);
+    background-color: var(--main-bg-color);
+    
+    font-family: 'Space Mono', monospace; 
+
+    cursor: url(images/cursor/cursor.svg), auto;
+}
+
+
+div {
+    font-size: 10vw;
+}
+/* ------------------------------------ FRONT PAGE --------------------------------------    */
+    /*  LEFT SIDE  */
+    .left_side {
+        width: 50%;
+        height: 100%;
+        float: left;
+
+    }
+    #welcome {
+        margin-left: .75vw;
+        font-family: 'Space Grotesk', sans-serif; 
+        font-weight: 600;
+        font-size: 10vw;
+        line-height: 15vw;
+        transition-duration: 0.25s;
+        
+    }
+    
+    
+    /*  RIGHT SIDE  */
+    .right_side {
+        margin-left: 50%;
+        height: 100%;
+        text-align: right;
+    }
+    .links {
+        text-transform: lowercase;
+        text-decoration: none;
+        border: none;
+        font-size: 8.5vw;    
+        font-style: italic;
+        color: transparent;
+        -webkit-text-stroke: .1vw var(--main-color);
+        transition-duration: 0.25s;
+    }
+
+    #portfolio:hover {
+        text-shadow: .75vw .75vw #6FBF67;
+        /* color: #e7e5df; */
+    }
+    #contact:hover {
+        text-shadow: .75vw .75vw #FF9F5C;
+        /* color: #e7e5df; */
+    }
+    #about:hover {
+        text-shadow: .75vw .75vw #59D2FE;
+        /* color: #e7e5df; */
+    }
+   
+
+.contact_info {
+    text-align: center;
+    margin-top: 20vh;
+}
+#email:hover {
+    text-shadow: .75vw .75vw #2364aa;
+}
+#instagram:hover {
+    text-shadow: .75vw .75vw #f88dad;
+}
+
+/* --------------------------------- PORTFOLIO ----------------------------------- */
+.portfolio_empty {
+    width: 30%;
+    height: 100vh;
+    background: transparent;
+    float: left;
+    text-align: center;
+}
+.portfolio_center {
+    width: 25%;
+    height: 100vh;
+    background: transparent;
+    float: left;
+    text-align: right;
+}
+.portfolio_end {
+    width: 45%;
+    height: 100vh;
+    float: right;
+    text-align: center;
+
+}
+
+img {
+    max-width: 90%;
+    max-height: 90%;
+    transform: translateY(10vh);
+    margin-bottom: 15.5vh;
+
+}
+
+#image_description {
+    font-size: 1.25vw;
+    transform: translateY(10vh);
+}
+
+
+/* --------------------------------- SCROLLBAR ----------------------------------- */
+::-webkit-scrollbar {
+  width: .7vw;
+}
+::-webkit-scrollbar-thumb {
+  background: #151515; 
+  border-right: 5px transparent solid;
+  background-clip: padding-box;
+}
+
+
