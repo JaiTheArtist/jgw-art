@@ -106,15 +106,26 @@ img {
 
 }
 
-#image_description {
-    font-size: 1.25vw;
+.art_title {
+    text-transform: lowercase;
+    text-decoration: none;
+    border: none;
+    font-size: 2.5vw;
+    font-style: italic;
     transform: translateY(10vh);
+    color: transparent;
+    -webkit-text-stroke: .066vw var(--main-color);
+    transition-duration: 0.25s;
+
+}
+.art_title:hover {
+    text-shadow: .5vw .5vw var(--main-color);
 }
 
 
 /* --------------------------------- SCROLLBAR ----------------------------------- */
 ::-webkit-scrollbar {
-  width: .7vw;
+  width: 12px;
 }
 ::-webkit-scrollbar-thumb {
   background: #151515; 
