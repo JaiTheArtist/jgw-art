@@ -119,7 +119,7 @@ img {
 
 }
 .art_title:hover {
-    text-shadow: .5vw .5vw var(--main-color);
+    text-shadow: .4vw .4vw var(--main-color);
 }
 
 
