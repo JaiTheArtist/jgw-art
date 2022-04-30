@@ -40,7 +40,6 @@ div {
         text-align: right;
     }
     .links {
-        text-transform: lowercase;
         text-decoration: none;
         border: none;
         font-size: 8.5vw;    
@@ -74,6 +73,9 @@ div {
 #instagram:hover {
     text-shadow: .75vw .75vw #f88dad;
 }
+#scad:hover {
+    text-shadow: .75vw .75vw #ffd900;
+}
 
 /* --------------------------------- PORTFOLIO ----------------------------------- */
 .portfolio_empty {
@@ -104,6 +106,13 @@ img {
     transform: translateY(10vh);
     margin-bottom: 15.5vh;
 
+}
+
+a {
+    padding: 0px;
+    margins: 0px;
+    color: transparent;
+    text-decoration: none;
 }
 
 .art_title {
